@@ -1,12 +1,6 @@
 
 # Dense Video Captioning with Bi-modal Transformer
-[Project Page](https://v-iashin.github.io/bmt)
-• [ArXiv](https://arxiv.org/abs/2005.08271)
-• [BMVC Page](https://www.bmvc2020-conference.com/conference/papers/paper_0111.html)
-• [Presentation](https://www.youtube.com/watch?v=C4zYVIqGDVQ) ([Can't watch YouTube? I gotchu!](https://a3s.fi/swift/v1/AUTH_a235c0f452d648828f745589cde1219a/bmt/video_0111.mp4) 🤗)
-•
 
-This is a PyTorch implementation for our paper: A Better Use of Audio-Visual Cues: Dense Video Captioning with Bi-modal Transformer ([BMVC](https://bmvc2020.github.io/) 2020).
 
 - [Dense Video Captioning with Bi-modal Transformer](#dense-video-captioning-with-bi-modal-transformer)
   - [Summary](#summary)
@@ -198,32 +192,3 @@ try to remove `*.txt` and `*.txt.pt` from the hidden folder `./.vector_cache/` a
 are not running out of disk space (unpacking of `glove.840B.300d.zip` requires extra ~8.5G).
 Then run `single_video_prediction.py` again.
 
-## Citation
-Our paper was accepted at BMVC 2020. Please, use this bibtex if you would like to cite our work
-```
-@InProceedings{BMT_Iashin_2020,
-  title={A Better Use of Audio-Visual Cues: Dense Video Captioning with Bi-modal Transformer},
-  author={Iashin, Vladimir and Rahtu, Esa},
-  booktitle={British Machine Vision Conference (BMVC)},
-  year={2020}
-}
-```
-
-```
-@InProceedings{MDVC_Iashin_2020,
-  title = {Multi-Modal Dense Video Captioning},
-  author = {Iashin, Vladimir and Rahtu, Esa},
-  booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  pages={958--959},
-  year = {2020}
-}
-```
-
-## Acknowledgments
-Funding for this research was provided by the Academy of Finland projects 327910 & 324346. The authors acknowledge CSC — IT Center for Science, Finland, for computational resources for our experimentation.
-
-* [Prithviraj](https://github.com/xanthan011) contributed to the [Google Colab demo](https://colab.research.google.com/github/v-iashin/BMT/blob/master/colab_demo_BMT.ipynb)
-
-## Media Coverage
-- [Dense Video Captioning Using Pytorch (Towards Data Science)](https://towardsdatascience.com/dense-video-captioning-using-pytorch-392ca0d6971a)
-- (in Russian) [Рубрика «Читаем статьи за вас». Сентябрь — октябрь 2020 года (habr.com)](https://habr.com/ru/company/ods/blog/544320/)
